@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #55c351;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #d5f5ff;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 200px;
+    max-height: 440px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#16a938
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #25b4db;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#textInput {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #25b4db;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#canvas {
+    border-radius: 8px;
+    border-radius:10px;
+    background: #d5f5ff;
+    margin-left:4px;
+}
+
+.ForCanvas{
+
+}

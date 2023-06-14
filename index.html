@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hamro Text Editor</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.3.1/fabric.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>HAMRO TEXT EDITOR</h2>
+        <label for="textInput">Hamro Text:</label>
+        <input type="text" id="textInput" placeholder="Enter text">
+        <label for="colorSelect">Hamro Text Color:</label>
+        <select id="colorSelect">
+            <option value="black">Hamro Black</option>
+            <option value="red">Hamro Red</option>
+            <option value="blue">Hamro Blue</option>
+            <option value="green">Hamro Green</option>
+        </select>
+        <label for="fontSelect">Hamro Text Font:</label>
+        <select id="fontSelect">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Georgia">Georgia</option>
+        </select>
+        <label for="sizeSelect">Hamro Text Size:</label>
+        <select id="sizeSelect">
+            <option value="12">12px</option>
+            <option value="16">16px</option>
+            <option value="20">20px</option>
+            <option value="24">24px</option>
+        </select>
+    </div>
+    <div class="ForCanvas">
+    <canvas id="canvas" width="400" height="520"></canvas>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
